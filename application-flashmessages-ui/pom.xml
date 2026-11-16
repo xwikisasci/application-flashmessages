@@ -42,6 +42,8 @@
       Flash.WebHomeSheet,
       Flash.WebPreferences
     </xwiki.extension.licensing.excludedDocuments>
+    <!-- Don't run CLIRR here since there's no Java code. -->
+    <xwiki.clirr.skip>true</xwiki.clirr.skip>
   </properties>
   <dependencies>
     <dependency>
